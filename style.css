@@ -1,0 +1,101 @@
+
+*{font-family: 'Lato', sans-serif;}
+
+
+h1{
+    text-transform: uppercase; 
+    color: white ;
+    background-color: darkcyan ;
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 45px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+
+h4, h3{
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    text-transform:uppercase;
+    color:darkcyan;
+
+}
+
+
+.row:after {
+    content: "" ;
+    display: table;
+    clear:both;
+}
+
+
+.collumn {
+    width: 32.33%;
+    float: left;
+}
+
+
+div > img {
+  width: 95%;
+  height: 450px;
+}
+
+
+.collumn > p {
+padding-right: 20px;
+}
+
+
+.collumn > h4 {
+    font-size: 18px;
+    color: red
+}
+
+.col{
+    float:left;
+    width: 50%;
+}
+
+.p1{
+    padding-right: 20px;
+    font-size: x-large;
+    padding-top: 100px;
+}
+
+
+.p2{
+    padding-right: 20px;
+    font-size: x-large;
+    padding-top: 150px;
+}
+
+
+.p3{
+    font-size: x-large;
+}
+
+
+.Popular{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+.Latest{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+.Store{
+    font-size: x-large;
+}
